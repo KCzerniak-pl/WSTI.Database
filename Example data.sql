@@ -101,7 +101,7 @@ INSERT INTO Patients (Name, Surname, Pesel, Sex) VALUES
 -- --------------------------------------------------------
 
 --
--- Przyk³adowe dane dla tabeli 'Doctors'
+-- Example data for 'Doctors'
 --
 INSERT INTO Doctors (DoctorNumber, Name, Surname) VALUES 
 (123425, 'Agnieszka', 'Mazur');
@@ -113,7 +113,7 @@ INSERT INTO Doctors (DoctorNumber, Name, Surname) VALUES
 -- --------------------------------------------------------
 
 --
--- Przyk³adowe dane dla tabeli 'Prescriptions'
+-- Example data for 'Prescriptions'
 --
 INSERT INTO Prescriptions (PrescriptionNumber, PrescriptionDate, DoctorID, PatientID) VALUES 
 (1246438543, '2019-06-07', 1, 1);
@@ -127,7 +127,7 @@ INSERT INTO Prescriptions (PrescriptionNumber, PrescriptionDate, DoctorID, Patie
 -- --------------------------------------------------------
 
 --
--- Przyk³adowe dane dla tabeli 'Employees'
+-- Example data for 'Employees'
 --
 INSERT INTO Employees (EmployeeNumber, Name, Surname) VALUES 
 (1230472521, 'Anna', 'Krawczyk');
@@ -137,7 +137,7 @@ INSERT INTO Employees (EmployeeNumber, Name, Surname) VALUES
 -- --------------------------------------------------------
 
 --
--- Przyk³adowe dane dla tabeli 'Transactions'
+-- Example data for 'Transactions'
 --
 INSERT INTO Transactions (TransactionNumber, PrescriptionID, ProductID, Quantity, EmployeeID) VALUES 
 (0706090001, 1, 1, 1, 1);
